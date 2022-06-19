@@ -1,3 +1,9 @@
 <?php 
-    echo 'hello world';
+if(isset($_SESSION['auth'])){
+    header("Location: home");
+    exit();
+} else {
+    header("Location: login");
+    exit();
+}
 ?>
