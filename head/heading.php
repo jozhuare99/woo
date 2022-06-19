@@ -2,7 +2,7 @@
 
 session_start();
 
-require '/woo/assets/env.php';
+require '/event.php';
 require '/woo/assets/db.php';
 require '/woo/assets/auth_functions.php';
 require '/woo/assets/security_functions.php';
