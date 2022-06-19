@@ -1,6 +1,6 @@
 <?php
 define('TITLE', 'Login');
-require '/woo/assets/header.php';
+require '/jozhuare/woo/head/heading.php';
 check_logged_out();
 ?>
 
